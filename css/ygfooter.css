@@ -1,0 +1,370 @@
+/*易果的配送-----------------------*/
+.footer_service{
+	width: 100%;
+	height: 42px;
+	background: rgb(224, 224, 224);
+	padding:30px 0px;
+}
+.footer_service .wrap{
+	width: 1200px;
+	height: 42px;
+	margin: 0 auto;
+}
+.wrap li{
+	float: left;
+}
+.choiceness{
+	width: 190px;
+	height: 42px;
+	margin-left: 55px;
+	padding-left: 55px;
+	background: salmon;
+	background: url(../yiguo/footer_service_icon.png)no-repeat;
+}
+.choiceness b{
+	display: block;
+	width: 174px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 15px;
+	font-size: 18px;
+	color:rgb(0, 127, 77);;
+	border-left: 1px solid rgb(166, 166, 166);
+}
+.choiceness span{
+	display: block;
+	width: 174px;
+	height: 15px;
+	line-height: 15px;
+	padding-left: 15px;
+	border-left: 1px solid rgb(166, 166, 166);;
+}
+.long_positions{
+	width: 190px;
+	height: 42px;
+	margin-left: 55px;
+	padding-left: 55px;
+	background: salmon;
+	background: url(../yiguo/footer_service_icon.png)no-repeat 0px -42px;
+}
+.long_positions b{
+	display: block;
+	width: 174px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 15px;
+	font-size: 18px;
+	color:rgb(0, 127, 77);;
+	border-left: 1px solid rgb(166, 166, 166);
+}
+.long_positions span{
+	display: block;
+	width: 174px;
+	height: 15px;
+	line-height: 15px;
+	padding-left: 15px;
+	border-left: 1px solid rgb(166, 166, 166);;
+}
+.source{
+	width: 190px;
+	height: 42px;
+	margin-left: 55px;
+	padding-left: 55px;
+	background: salmon;
+	background: url(../yiguo/footer_service_icon.png)no-repeat 0px -84px;
+}
+.source b{
+	display: block;
+	width: 174px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 15px;
+	font-size: 18px;
+	color:rgb(0, 127, 77);;
+	border-left: 1px solid rgb(166, 166, 166);
+}
+.source span{
+	display: block;
+	width: 174px;
+	height: 15px;
+	line-height: 15px;
+	padding-left: 15px;
+	border-left: 1px solid rgb(166, 166, 166);
+}
+.price{
+	width: 190px;
+	height: 42px;
+	margin-left: 55px;
+	padding-left: 55px;
+	background: salmon;
+	background: url(../yiguo/footer_service_icon.png)no-repeat 0px -126px;
+}
+.price b{
+	display: block;
+	width: 174px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 15px;
+	font-size: 18px;
+	color:rgb(0, 127, 77);;
+	border-left: 1px solid rgb(166, 166, 166);
+}
+.price span{
+	display: block;
+	width: 174px;
+	height: 15px;
+	line-height: 15px;
+	padding-left: 15px;
+	border-left: 1px solid rgb(166, 166, 166);
+}
+/*	<!--页面尾部--------------->*/
+.footer{
+	width: 100%;
+	height: 393px;
+	padding-bottom: 20px;
+	border-top: 1px solid rgb(224, 224, 224);
+	position: relative;
+}
+.footer .wrap{
+	width: 1200px;
+	height: 343px;
+	margin:50px auto;
+}
+.footer .wrap dl{
+	float: left;
+}
+.guide{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.guide dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+}
+.guide dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.guide dd p{
+	width: 156px;
+	height: 22px;
+}
+.payment{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.payment dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -23px;
+}
+.payment dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.payment dd p{
+	width: 156px;
+	height: 22px;
+}
+.delivery{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.delivery dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -46px;
+}
+.delivery dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.delivery dd p{
+	width: 156px;
+	height: 22px;
+}
+.after_sale{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.after_sale dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -69px;
+}
+.after_sale dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.after_sale dd p{
+	width: 156px;
+	height: 22px;
+}
+.recommend{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.recommend dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -92px;
+}
+.recommend dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.recommend dd p{
+	width: 156px;
+	height: 22px;
+}
+.service{
+	width: 1200px;
+	height: 17px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	text-align: center;
+	clear: both;
+}
+.service_phone{
+	display: inline-block;
+	width: 364px;
+	height: 17px;
+	line-height: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(0, 136, 66);
+	font-size: 14px;
+}
+.service_workday{
+	display: inline-block;
+	width: 153px;
+	height: 17px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(0, 136, 66);
+	font-size: 14px;
+}
+.copyright{
+	width: 1200px;
+	height: 98px;
+	text-align: center;
+	color: rgb(113, 113, 113);
+}
+.copyright .con{
+	color: rgb(113, 113, 113);
+}
+.authentication{
+	width: 1200px;
+	height: 54px;
+}
+.authentication p{
+	position: relative;
+}
+.safeguard{
+	width: 87px;
+	height: 54px;
+    margin: 0px 10px;
+}
+.safeguard img{
+	width: 87px;
+	height: 47px;
+}
+.online_shopping{
+	width: 38px;
+	height: 54px;
+	margin: 0px 10px;
+}
+.online_shopping img{
+	width: 38px;
+	height: 47px;
+}
+.commerce{
+	width: 47px;
+	height: 54px;
+	margin: 0px 10px;
+}
+/*回到顶部----------------------------------------------*/
+#sidebar{
+	width: 56px;
+	height: 104px;
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+}
+.customer{
+	display: block;
+	width: 50px;
+	height: 42px;
+	margin-bottom: 10px;
+	background-image: url(../yiguo/sidebar.png);
+	background-position: 0px -42px;
+}
+.go_top{
+	display: block;
+	width: 50px;
+	height: 42px;
+	margin-bottom: 10px;
+	background-image: url(../yiguo/sidebar.png);
+}

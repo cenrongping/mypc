@@ -1,0 +1,665 @@
+#complete{
+	width: 100%;
+	height: 1220px;
+}
+/*头部-------------------------*/
+.top_clearfix{
+	width: 100%;
+	height: 70px;
+	background: rgb(224, 224, 224);
+}
+.top_clearfix_wrap{
+	width: 1200px;
+	height: 50px;
+	background:rgb(224, 224, 224);
+	margin: 0 auto;
+	padding: 15px 0px 5px;
+}
+.wrap_logo{
+	
+	width: 195px;
+	height: 50px;
+	float: left;
+}
+.wrap_logo a{
+	display: inline-block;
+	width: 195px;
+	height: 50px;
+	background: url(../yiguo/logo.png)no-repeat;
+}
+ .top_clearfix_wrap span{
+ 	display: inline-block;
+ 	line-height: 50px;
+ 	font-size: 28px;
+ 	color:rgb(0, 136, 66);
+ 	margin-left: 70px;
+}
+.right{
+	width: 1200px;
+	height: 65px;
+	margin: 0 auto;
+}
+.right span{
+	float: right;
+	margin-top: 40px;
+	font-size: 14px;
+	font-weight: 400;
+	margin-right: 36px;
+}
+.right span a{
+	color: rgb(239, 118, 10);
+	text-decoration: underline;
+	margin-left: 5px;
+}
+/*注册内容-----------------*/
+.login_con{
+	width: 1198px;
+	height: 542px;
+	margin: 0 auto;
+	padding: 40px 0px 50px;
+	border: 1px solid rgb(196, 223, 177);
+}
+.con_left{
+	width: 712px;
+	height: 542px;
+	float: left;
+}
+.login_main_security{
+	width: 712px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.login_main_security p{
+	width: 240px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: right;
+	float: left;
+	margin-right: 20px;
+}
+#myText{
+	width: 147px;
+	height: 38px;
+	float: left;
+	border: 1px solid rgb(193, 193, 193);
+	padding-left: 15px;
+	margin-right: 20px;
+}
+.security_con{
+	width: 58px;
+	height: 38px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid rgb(193, 193, 193);
+	float: left;
+	font-size: 18px;
+	letter-spacing: 2px;
+	
+}
+.login_main_security span{
+	display: block;
+	width: 42px;
+	line-height: 40px;
+	float: left;
+	font-size: 14px;
+	cursor: pointer;
+}
+.login_main_security span:hover{
+	color: rgb(0, 136, 66);
+}
+.login_main_phone{
+	width: 712px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.login_main_phone p{
+	width: 240px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: right;
+	float: left;
+	margin-right: 20px;
+}
+#phoneText{
+	width: 290px;
+	height: 38px;
+	float: left;
+	border: 1px solid rgb(193, 193, 193);
+	padding-left: 15px;
+	margin-right: 20px;
+	background: url(../yiguo/bg_input.png)no-repeat 276px -30px;
+}
+.login_main_phone .pass_tip{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	display: none;
+}
+.login_main_phone .pass_tip i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat -20px -200px;
+	vertical-align:middle;
+}
+.login_main_phone .pass_fault{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	color: red;
+	display: none;
+}
+.login_main_phone .pass_fault i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat -40px -200px;
+	vertical-align:middle;
+}
+.login_main_code{
+	width: 712px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.login_main_code p{
+	width: 240px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: right;
+	float: left;
+	margin-right: 20px;
+}
+#phontCode{
+	width: 147px;
+	height: 38px;
+	float: left;
+	border: 1px solid rgb(193, 193, 193);
+	padding-left: 15px;
+	margin-right: 20px;
+}
+.get_code{
+	width: 121px;
+    line-height:38px;
+    text-align: center;
+    border: 1px solid rgb(193, 193, 193);
+    float: left;
+    font-size: 14px;
+    color: rgb(0,136,66);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.login_main_code .pass_code{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	display: none;
+}
+.login_main_code .pass_code i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat -20px -200px;
+	vertical-align:middle;
+}
+.login_main_code .pass_notarize{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	color: red;
+	display: none;
+}
+.login_main_code .pass_notarize i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat -40px -200px;
+	vertical-align:middle;
+}
+.login_main_code .pass_succ{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	color: red;
+	display: none;
+}
+.login_main_code .pass_succ i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat 0px -200px;
+	vertical-align:middle;
+}
+.login_main_code .pass_error{
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	color: red;
+	display: none;
+}
+.login_main_code .pass_error i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat -40px -200px;
+	vertical-align:middle;
+}
+.login_main_set{
+	width: 712px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.login_main_set p{
+	width: 240px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: right;
+	float: left;
+	margin-right: 20px;
+}
+#setText{
+	width: 290px;
+	height: 38px;
+	float: left;
+	border: 1px solid rgb(193, 193, 193);
+	padding-left: 15px;
+	margin-right: 20px;
+	background: url(../yiguo/bg_input.png)no-repeat 276px -70px;
+}
+.login_main_set .pass_cipher{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	display: none;
+}
+.login_main_set .pass_cipher i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat -20px -200px;
+	vertical-align:middle;
+}
+.login_main_set .pass_under{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	color: red;
+	display: none;
+}
+.login_main_set .pass_under i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat -40px -200px;
+	vertical-align:middle;
+}
+.login_main_set .pass_succ{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	color: red;
+	display: none;
+}
+.login_main_set .pass_succ i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat 0px -200px;
+	vertical-align:middle;
+}
+.login_main_notarize{
+	width: 712px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.login_main_notarize p{
+	width: 240px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: right;
+	float: left;
+	margin-right: 20px;
+}
+#notarizeText{
+	width: 290px;
+	height: 38px;
+	float: left;
+	border: 1px solid rgb(193, 193, 193);
+	padding-left: 15px;
+	margin-right: 20px;
+	background: url(../yiguo/bg_input.png)no-repeat 276px -70px;
+}
+.login_main_notarize .pass_cipher{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	display: none;
+}
+.login_main_notarize .pass_cipher i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: url(../yiguo/bg_login.png)no-repeat -20px -200px;
+	vertical-align:middle;
+}
+.login_main_invitation{
+	width: 712px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.login_main_invitation p{
+	width: 240px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: right;
+	float: left;
+	margin-right: 20px;
+}
+#invitationText{
+	width: 290px;
+	height: 38px;
+	float: left;
+	border: 1px solid rgb(193, 193, 193);
+	padding-left: 15px;
+	margin-right: 20px;
+	background: url(../yiguo/bg_input.png)no-repeat 276px -70px;
+}
+.login_main_sla{
+	width: 712px;
+	height: 19px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#myCheck{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.login_main_sla span{
+	color: rgb(0,163,66);
+	cursor: pointer;
+}
+.login_main_btn{
+	width: 712px;
+	height: 50px;
+	text-align: center;
+}
+.login_main_btn a{
+	display: inline-block;
+	width: 306px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: rgb(0,163,66);
+	font-size: 18px;
+	color: #fff;
+	margin-left: 100px;
+}
+.login_main_btn a:hover{
+	opacity: .9;
+}
+.con_right{
+	width: 330px;
+	height: 340px;
+	float: right;
+	margin-right: 120px;
+	margin-top: 50px;
+}
+.con_right img{
+	display: inline-block;
+	width: 330px;
+	height: 340px;
+}
+/*	<!--页面尾部--------------->*/
+.footer{
+	width: 100%;
+	height: 393px;
+	padding-bottom: 20px;
+	border-top: 1px solid rgb(224, 224, 224);
+	position: relative;
+	margin-top: 30px;
+}
+.footer .wrap{
+	width: 1200px;
+	height: 343px;
+	margin:50px auto;
+}
+.footer .wrap dl{
+	float: left;
+}
+.guide{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.guide dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+}
+.guide dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.guide dd p{
+	width: 156px;
+	height: 22px;
+}
+.payment{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.payment dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -23px;
+}
+.payment dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.payment dd p{
+	width: 156px;
+	height: 22px;
+}
+.delivery{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.delivery dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -46px;
+}
+.delivery dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.delivery dd p{
+	width: 156px;
+	height: 22px;
+}
+.after_sale{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.after_sale dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -69px;
+}
+.after_sale dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.after_sale dd p{
+	width: 156px;
+	height: 22px;
+}
+.recommend{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.recommend dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -92px;
+}
+.recommend dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.recommend dd p{
+	width: 156px;
+	height: 22px;
+}
+.service{
+	width: 1200px;
+	height: 17px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	text-align: center;
+	clear: both;
+}
+.service_phone{
+	display: inline-block;
+	width: 364px;
+	height: 17px;
+	line-height: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(0, 136, 66);
+	font-size: 14px;
+}
+.service_workday{
+	display: inline-block;
+	width: 153px;
+	height: 17px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(0, 136, 66);
+	font-size: 14px;
+}
+.copyright{
+	width: 1200px;
+	height: 98px;
+	text-align: center;
+	color: rgb(113, 113, 113);
+}
+.copyright .con{
+	color: rgb(113, 113, 113);
+}
+.authentication{
+	width: 1200px;
+	height: 54px;
+}
+.authentication p{
+	position: relative;
+}
+.safeguard{
+	width: 87px;
+	height: 54px;
+    margin: 0px 10px;
+}
+.safeguard img{
+	width: 87px;
+	height: 47px;
+}
+.online_shopping{
+	width: 38px;
+	height: 54px;
+	margin: 0px 10px;
+}
+.online_shopping img{
+	width: 38px;
+	height: 47px;
+}
+.commerce{
+	width: 47px;
+	height: 54px;
+	margin: 0px 10px;
+}

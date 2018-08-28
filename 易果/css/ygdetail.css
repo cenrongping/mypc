@@ -1,0 +1,311 @@
+#wrap{
+	width: 1200px;
+	height: 7522px;
+	margin: 0 auto;
+}
+.wrap_nav{
+	width: 1200px;
+	height: 14px;
+	padding: 10px 0px;
+	color: rgb(68,68,68);
+}
+.wrap_nav a{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+/*详情页内容------------------*/
+.wrap_content{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+}
+.content_preview{
+	width: 500px;
+	height: 600px;
+	float: left;
+}
+.content_preview_big{
+	width: 500px;
+	height: 500px;
+}
+.content_preview_samll{
+	width: 500px;
+	height: 90px;
+	background: #fff;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.content_preview_samll img{
+	width: 90px;
+	height: 88px;
+	float: left;
+	margin-right: 20px;
+	border: 1px solid rgb(188,188,188);
+}
+.product_info{
+	width: 680px;
+	height: 600px;
+	float: right;
+}
+.product_info_name{
+	width: 595px;
+	height: 80px;
+}
+.product_info_name h4{
+	width: 595px;
+	line-height: 35px;
+	font-size: 26px;
+	color: rgb(68, 68, 68);
+}
+.product_info_name p{
+	width: 595px;
+	height: 40px;
+	font-size: 16px;
+	color: rgb(119,119,119);
+	line-height: 40px;
+}
+.product_info_summary{
+	width: 640px;
+	height: 70px;
+	padding: 10px 20px;
+}
+.summary_price{
+	/*width: 157px;*/
+	height: 70px;
+	text-align: center;
+	float: left;
+}
+.summary_price p{
+	float: left;
+	margin-top: 20px;
+	color: rgb(68,68,68);
+}
+.summary_price>p:nth-child(2){
+	color: red;
+}
+.summary_price>p:nth-child(3){
+	color: red;
+	font-size: 35px;
+}
+.summary_del{
+	line-height: 40px;
+}
+.summary_review{
+	width: 81px;
+	height: 70px;
+	float: right;
+}
+.summary_review p{
+	text-align: center;
+}
+.summary_review p b{
+	color: red;
+}
+.summary_review span{
+	cursor: pointer;
+}
+.summary_review span:hover{
+	color: rgb(0,163,66);
+}
+.summary_other{
+	width: 680px;
+	height: 390px;
+	margin-top: 20px;
+}
+.summary_left{
+	width: 529px;
+	height: 273px;
+	padding-right: 20px;
+	border-right: 1px solid rgb(217, 217, 217);
+	float: left;
+}
+.summary_discounts{
+	width: 529px;
+	height: 26px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed rgb(217, 217, 217);
+}
+.discounts_way{
+	width: 410px;
+	height: 20px;
+	float: left;
+}
+.discounts_way b{
+	display: inline-block;
+	width: 32px;
+	height: 20px;
+	text-align: center;
+	font-weight: 400;
+	background: rgb(232, 56, 13);
+	color: #fff;
+	margin-right: 10px;
+}
+.commodity_size{
+	width: 529px;
+	height: 62px;
+	margin-bottom: 20px;
+}
+.commodity_size p{
+	float: left;
+	width: 40px;
+	height: 52px;
+	padding: 0px 10px;
+	color: rgb(68, 68, 68);
+	line-height: 52px;
+}
+.commodity_price{
+	width: 468px;
+	height: 62px;
+	float: left;
+}
+.selected{
+	width: 61px;
+	height: 52px;
+	margin-top: 5px;
+	position: relative;
+}
+.selected a{
+	display: block;
+	width: 59px;
+	height: 50px;
+	border: 1px solid rgb(0,136,66);
+	border-top:none ;
+}
+.selected span{
+	display: block;
+	width: 59px;
+	line-height: 25px;
+	text-align: center;
+	border-top: 1px solid rgb(0,136,66);
+}
+.selected i{
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../yiguo/product.png);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.pro_service{
+	width: 529px;
+	height: 14px;
+	color: rgb(68,68,68);
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+.pro_service b{
+	color: rgb(0,136,66);
+}
+.pro_return{
+	width: 529px;
+	height: 17px;
+	color: rgb(68,68,68);
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+.pro_return i{
+	width: 14px;
+	height: 17px;
+}
+.pro_return img{
+	width: 14px;
+	height: 17px;
+}
+.pro_amount{
+	width: 529px;
+	height: 43px;
+	padding-left: 10px;
+}
+.pro_amount p{
+	float: left;
+	width: 40px;
+	line-height: 43px;
+	padding: 0px 10px;
+	color: rgb(68, 68, 68);
+}
+.pro_btn{
+	float: left;
+	width: 70px;
+	height: 43px;
+}
+#myTexts{
+	float: left;
+	width: 39px;
+	height: 41px;
+	border: 1px solid rgb(226, 226, 226);
+	border-right: none;
+	text-align: center;
+}
+.pro_plus{
+	width: 21px;
+	height: 21px;
+	border: rgb(226, 226, 226);
+	background: rgb(255, 255, 255);
+	cursor: pointer;
+}
+.pro_subtract{
+	width: 21px;
+	height: 22px;
+	border: rgb(226, 226, 226);
+	background: rgb(255, 255, 255);
+	cursor: pointer;
+}
+.addcart{
+	float: left;
+	width: 187px;
+	height: 43px;
+	margin-left: 20px;
+	background: #008000;
+}
+.addcart a{
+	display: block;
+	width: 187px;
+	line-height: 43px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.addcart i{
+	display: inline-block;
+	width: 28px;
+	height: 25px;
+	line-height: 25px;
+	vertical-align: middle;
+	background: url(../yiguo/product.png)no-repeat -47px 0px;
+	margin-right:20px ;
+}
+.summary_right{
+	float: right;
+	width: 120px;
+	height: 96px;
+	padding-left: 10px;
+}
+.zx{
+	width: 120px;
+	height: 96px;
+}
+.zx tr{
+	width: 120px;
+	height: 24px;
+	color: rgb(119, 119, 119);
+}
+.content_details{
+	width: 1200px;
+	height: 6858px;
+	margin: 0 auto;
+}
+.left_con{
+	width: 255px;
+	height: 233px;
+	margin-right: 15px;
+	background: salmon;
+	float:left;
+}
+.main_con{
+	width: 930px;
+	height: 6858px;
+	float: right;
+	background: salmon;
+}

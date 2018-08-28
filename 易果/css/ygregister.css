@@ -1,0 +1,452 @@
+#complete{
+	width: 100%;
+	height: 1005px;
+}
+/*头部-------------------------*/
+.top_clearfix{
+	width: 100%;
+	height: 70px;
+	background: rgb(224, 224, 224);
+}
+.top_clearfix_wrap{
+	width: 1200px;
+	height: 50px;
+	background:rgb(224, 224, 224);
+	margin: 0 auto;
+	padding: 15px 0px 5px;
+}
+.wrap_logo{
+	
+	width: 195px;
+	height: 50px;
+	float: left;
+}
+.wrap_logo a{
+	display: inline-block;
+	width: 195px;
+	height: 50px;
+	background: url(../yiguo/logo.png)no-repeat;
+}
+ .top_clearfix_wrap span{
+ 	display: inline-block;
+ 	line-height: 50px;
+ 	font-size: 28px;
+ 	color:rgb(0, 136, 66);
+ 	margin-left: 70px;
+}
+/*中间部分-----------------------*/
+.wrap_content{
+	width: 1200px;
+	height: 442px;
+	/*background: skyblue;*/
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.content_pic{
+	width: 666px;
+	height: 442px;
+	float: left;
+}
+.content_pic img{
+	width: 666px;
+	height: 442px;
+}
+.users_login{
+	width: 350px;
+	height: 454px;
+	padding-right: 105px;
+	/*background: salmon;*/
+	float: right;
+}
+.login_main{
+	width: 308px;
+	height: 382px;
+	padding: 30px 20px 20px;
+	border: 1px solid rgb(227, 230, 224);
+}
+.login_main .login_main_con{
+	width: 308px;
+	height: 20px;
+	margin-bottom: 20px;
+}
+.login_main_con b{
+	font-size: 18px;
+	color: black;
+	font-weight: 400;
+	float: left;
+}
+.login_main_con span{
+	float: right;
+}
+.login_main_con span a{
+	color: rgb(0, 136, 66);
+	text-decoration: underline;
+}
+.login_main_id{
+	width: 308px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.login_main_id i{
+	display: block;
+	width: 38px;
+	height: 38px;
+	border: 1px solid rgb(193, 193, 193);
+	border-right: none;
+	background: url(../yiguo/bg_input.png)no-repeat 0px -120px;
+	float: left;
+}
+.login_main_id input{
+	width: 256px;
+	height: 38px;
+	padding-left: 10px;
+	border: 1px solid rgb(193, 193, 193);
+}
+.login_main_pass{
+	width: 308px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.login_main_pass i{
+	display: block;
+	width: 38px;
+	height: 38px;
+	border: 1px solid rgb(193, 193, 193);
+	border-right: none;
+	background: url(../yiguo/bg_input.png)no-repeat 0px -180px;
+	float: left;
+}
+.login_main_pass input{
+	width: 256px;
+	height: 38px;
+	padding-left: 10px;
+	border: 1px solid rgb(193, 193, 193);
+}
+.login_main_security{
+	width: 308px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.login_main_security i{
+	display: block;
+	width: 38px;
+	height: 38px;
+	border: 1px solid rgb(193, 193, 193);
+	border-right: none;
+	background: url(../yiguo/bg_input.png)no-repeat 0px -180px;
+	float: left;
+}
+.login_main_security input{
+	width: 112px;
+	height: 38px;
+	padding-left: 10px;
+	border: 1px solid rgb(193, 193, 193);
+	float: left;
+}
+.security_con{
+	width: 48px;
+	height: 38px;
+	border: 1px solid rgb(193, 193, 193);
+	border-left: none;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+.login_main_security span{
+	line-height: 40px;
+}
+.login_main_security span a:hover{
+	color: rgb(0, 136, 66);
+}
+.auto_login{
+	width: 308px;
+	height: 17px;
+	padding-bottom: 20px;
+}
+.auto_login input{
+	float: left;
+	margin-right: 9px;
+}
+.auto_login span{
+	float: right;
+}
+.auto_login span a:hover{
+	color:rgb(0, 136, 66);
+}
+.login{
+	width: 308px;
+	height: 50px;
+	background: rgb(0, 136, 66);
+	margin-bottom: 20px;
+	text-align: center;
+}
+.login>a{
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 20px;
+}
+.login_main p{
+	margin-bottom: 20px;
+}
+.party_login{
+	width: 308px;
+	height: 20px;
+}
+.qq{
+	margin-right: 20px;
+}
+.qq i{
+	display: inline-block;
+	width: 88px;
+	height: 20px;
+	background:url(../yiguo/bg_login.png)no-repeat -60px -200px;
+}
+.microblog{
+	margin-right: 20px;
+}
+.microblog i{
+	display: inline-block;
+	width: 88px;
+	height: 20px;
+	background:url(../yiguo/bg_login.png)no-repeat -160px -200px;
+}
+.ay i{
+	display: inline-block;
+	width:57px;
+	height: 20px;
+	background:url(../yiguo/bg_login.png)no-repeat -260px -200px;
+}
+/*	<!--页面尾部--------------->*/
+.footer{
+	width: 100%;
+	height: 393px;
+	padding-bottom: 20px;
+	border-top: 1px solid rgb(224, 224, 224);
+	position: relative;
+	margin-top: 30px;
+}
+.footer .wrap{
+	width: 1200px;
+	height: 343px;
+	margin:50px auto;
+}
+.footer .wrap dl{
+	float: left;
+}
+.guide{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.guide dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+}
+.guide dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.guide dd p{
+	width: 156px;
+	height: 22px;
+}
+.payment{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.payment dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -23px;
+}
+.payment dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.payment dd p{
+	width: 156px;
+	height: 22px;
+}
+.delivery{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.delivery dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -46px;
+}
+.delivery dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.delivery dd p{
+	width: 156px;
+	height: 22px;
+}
+.after_sale{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.after_sale dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -69px;
+}
+.after_sale dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.after_sale dd p{
+	width: 156px;
+	height: 22px;
+}
+.recommend{
+	display: block;
+	width: 190px;
+	height: 148px;
+	margin-left: 50px;
+}
+.recommend dt{
+	display: block;
+	width: 190px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size: 14px;
+	background-image: url(../yiguo/footer_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px -92px;
+}
+.recommend dd{
+	width: 156px;
+	height: 110px;
+	margin-left: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	border-left: 1px dashed rgb(168, 168, 168);
+}
+.recommend dd p{
+	width: 156px;
+	height: 22px;
+}
+.service{
+	width: 1200px;
+	height: 17px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	text-align: center;
+	clear: both;
+}
+.service_phone{
+	display: inline-block;
+	width: 364px;
+	height: 17px;
+	line-height: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(0, 136, 66);
+	font-size: 14px;
+}
+.service_workday{
+	display: inline-block;
+	width: 153px;
+	height: 17px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(0, 136, 66);
+	font-size: 14px;
+}
+.copyright{
+	width: 1200px;
+	height: 98px;
+	text-align: center;
+	color: rgb(113, 113, 113);
+}
+.copyright .con{
+	color: rgb(113, 113, 113);
+}
+.authentication{
+	width: 1200px;
+	height: 54px;
+}
+.authentication p{
+	position: relative;
+}
+.safeguard{
+	width: 87px;
+	height: 54px;
+    margin: 0px 10px;
+}
+.safeguard img{
+	width: 87px;
+	height: 47px;
+}
+.online_shopping{
+	width: 38px;
+	height: 54px;
+	margin: 0px 10px;
+}
+.online_shopping img{
+	width: 38px;
+	height: 47px;
+}
+.commerce{
+	width: 47px;
+	height: 54px;
+	margin: 0px 10px;
+}

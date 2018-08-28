@@ -1,0 +1,58 @@
+{
+	"importedFruits":[
+	                    {"pid":"1001","yiguosrc":"yiguo/9288724423943372.jpg"},
+	                    {"pid":"1002","yiguosrc":"yiguo/9288724424008908.jpg"},
+	                    {"pid":"1003","yiguosrc":"yiguo/9288720243237997.jpg"},
+	                    {"pid":"1004","yiguosrc":"yiguo/9288720243106925.jpg"},
+	                    {"pid":"1005","yiguosrc":"yiguo/9288720243139693.jpg"},
+	                    {"pid":"1006","yiguosrc":"yiguo/9288724424107212.jpg"}
+	                ],
+	"details":[
+	            {
+	            	"pid":"1001","yiguosrc":"yiguo/9288720480773235_500.jpg",
+	            	"slug":["yiguo/9288720480773235_500.jpg",
+	            	        "yiguo/9288720480740467_500.jpg",
+	            	        "yiguo/9288720480707699_500.jpg"
+	            	       ],
+	            	"name":"智利红提1kg","describe":"颗粒饱满 脆甜果肉","price":"36.90","oldprice":"","cu":"促",
+	            	"youhui":"买二送一","smallprice":"￥36.90","ypbp":"1gk/份",
+	            	"ycd":"智利","spbh":"1367842","pingf":"5.0"
+	            	
+	            },
+	            {
+	            	"pid":"1002","yiguosrc":"yiguo/9288720292324462_500.jpg",
+	            	"slug":["yiguo/9288720292324462_500.jpg",
+	            	        "yiguo/9288696985329957_500.jpg",
+	            	        "yiguo/9288696985362725_500.jpg"
+	            	       ],
+	            	"name":"泰国山竹1kg","describe":"果肉白洁嫩滑 入口轻呡即化","price":"63.90","oldprice":"","cu":"",
+	            	"youhui":"","smallprice":"￥63.90","ypbp":"1gk/份",
+	            	"ycd":"泰国","spbh":"11702","pingf":"5.0"
+	            	
+	            },
+	            {
+	            	"pid":"1005","yiguosrc":"yiguo/9288716130427782_500.jpg",
+	            	"slug":["yiguo/9288716130427782_500.jpg",
+	            	        "yiguo/9288696306573578_500.jpg",
+	            	        "yiguo/9288696306606346_500.jpg"
+	            	       ],
+	            	"name":"泰国龙眼2kg","describe":"核小肉厚，莹润剔透","price":"48.00","oldprice":"","cu":"",
+	            	"youhui":"","smallprice":"￥48.00","ypbp":"2gk/份",
+	            	"ycd":"泰国","spbh":"10957","pingf":"4.0"
+	            	
+	            },
+	            {
+	            	"pid":"1006","yiguosrc":"yiguo/9288707178832539_500.jpg",
+	            	"slug":["yiguo/9288707178832539_500.jpg",
+	            	        "yiguo/9288693810372764_500.jpg",
+	            	        "yiguo/9288697163325741_500.jpg"
+	            	       ],
+	            	"name":"泰国金枕头榴莲9-10斤（约1-2个）","describe":"该商品不与其他优惠券、现金券及抵用券同享","price":"179.00","oldprice":"￥239.00","cu":"",
+	            	"youhui":"","smallprice":"￥179.00","ypbp":"9-10斤/份",
+	            	"ycd":"泰国","spbh":"1004774","pingf":"4.9"
+	            	
+	            }
+	           
+	          ]                
+}
+
